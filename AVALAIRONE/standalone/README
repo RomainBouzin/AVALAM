@@ -1,0 +1,13 @@
+Afin de lancer l'executable effectuez les commandes suivantes dans le terminal de ce repertoire:
+
+depuis le repertoire build :
+
+source dyn.sh
+
+depuis le repertoire standalone :
+
+make clean --> supprime les fichiers inutiles 'générés avec des versions précédentes de standalone.c'
+make --> créé les fichiers standalone.exe et standalone.static
+./standalone.exe 
+
+Ouvrir build/web/avalam-refresh.html dans un navigateur web afin d'avoir le résultat visuel de la partie en parallèle.

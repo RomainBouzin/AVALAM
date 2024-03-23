@@ -1,0 +1,38 @@
+Afin de lancer l'executable effectuez les commandes suivantes dans le terminal de ce repertoire:
+
+make clean --> supprime les fichiers inutiles 'générés avec des versions précédentes de diag.c'
+make --> créé les fichiers diag.exe et diag.static
+
+Ensuite lancez le fichier build/web/avalam-diag.html dans un navigateur web et entrer le nom du fichier que vous avez créé précédemment
+
+(les fichiers sont stockés dans le repertoire build/web/data)
+
+RAPPEL : 
+	Chaques lettres sont associées à une couleur et le nombre de pion sur cette pile idem pour les bonus et malus :
+		u = pile de UN jaune
+		d = pile de DEUX jaune
+		t = pile de TROIS jaune
+		q = pile de QUATRE jaune
+		c = pile de CINQ jaune
+	______________________________________
+		
+		U = pile de UN rouge
+		D = pile de DEUX rouge
+		T = pile de TROIS rouge
+		Q = pile de QUATRE rouge
+		C = pile de CINQ rouge
+	______________________________________
+	
+		b = bonus jaune
+		m = malus jaune
+		B = bonus rouge
+		M = malus rouge
+	______________________________________
+	
+		r = trait aux rouges
+		j = trait aux jaunes
+_______________________________________________________________________________________________________
+
+>>>>>>>>>>>  /!\ $./diag.exe NOM_DU_TRAIT 'CHAINE_FEN' /!\  <<<<<<<<<<<<<<<
+
+Exemple de FEN : 'UuUuUu r' -> le trait est au rouge et il y a une alternance de pile de un pion jaunes et rouges sur les deux premieres lignes.
